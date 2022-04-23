@@ -1,0 +1,26 @@
+$light_gray: #EFEFEF;
+$dark_gray: #565656;
+$primary: #3D00B7;
+
+@mixin above($arg) {
+  $width: '';
+  @if $arg == 'xsmall' {
+    $width: 540px;
+  }
+  @if $arg == 'small' {
+    $width: 720px;
+  }
+  @if $arg == 'medium' {
+    $width: 940px;
+  }
+  @if $arg == 'big' {
+    $width: 1200px;
+  }
+  @if $arg == 'large' {
+    $width: 1441px;
+  }
+
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}

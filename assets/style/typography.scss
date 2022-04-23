@@ -1,0 +1,92 @@
+h1{
+    font-family: 'Integral CF', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 5%;
+    -webkit-text-stroke: 1px black;
+}
+
+h2{
+    font-family: 'Integral CF', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 5%;
+
+    span{
+        font-weight: 400;
+    }
+
+    @include above(small) {
+        font-size: 40px;
+    }
+}
+
+h3{
+     font-family: 'DM Sans', sans-serif;
+     color: white;
+     font-size: 28px;
+     font-weight: 700;
+}
+
+h4{
+     font-family: 'DM Sans', sans-serif;
+     color: white;
+     font-size: 20px;
+     font-weight: 700;
+     
+     &.black{
+         color: black;
+     }
+}
+
+h5{
+     font-family: 'DM Sans', sans-serif;
+     color: white;
+     font-size: 16px;
+     font-weight: 700;
+
+     span{
+         font-weight: 400;
+     }
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    line-height: 160%;
+    font-weight: 400;
+    font-size: 20px;
+    color: $dark_gray;
+
+    &.small{
+        font-size: 12px;
+    }
+
+    &.medium{
+        font-size: 14px;
+    }
+
+    &.white{
+        color: white;
+    }
+}
+
+a{
+    position: relative;
+
+    &:before{
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: $primary;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        transition: all 0.5s ease;
+    }
+
+    &:hover{
+        &:before{
+            width: 100%;
+        }
+    }
+}
