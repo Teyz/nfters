@@ -16,6 +16,10 @@ h2{
         font-weight: 400;
     }
 
+    &.small{
+        font-size: 28px;
+    }
+
     @include above(small) {
         font-size: 40px;
     }

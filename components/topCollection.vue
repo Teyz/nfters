@@ -51,35 +51,9 @@
             }
         }
 
-        .main-collection-single{
-            .top-collection-image{
-                object-fit: cover;
-                width: 100%;
-                @include above(medium){
-                    width: auto;
-                }
-            }
-
-            .main-collection-single-infos{
-                margin-top: 32px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-
-                .main-collection-single-image{
-                    display: flex;
-                    align-items: center;
-
-                    &>img{
-                        margin-right: 10px;
-                    }
-                }
-            }
-        }
-
         .main-collection-list{
             @include above(medium){
-                margin-left: 56px;
+                margin-left: 32px;
             }
 
             li{

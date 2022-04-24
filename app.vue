@@ -4,6 +4,7 @@
     <Hero/>
     <Banner/>
     <TopCollection/>
+    <FeaturedCollection/>
   </div>
 </template>
 
