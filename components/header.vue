@@ -82,7 +82,7 @@
         border-bottom: 1px solid $light_gray;
 
         @include above(xsmall) {
-            padding: 24px 120px;
+            padding: 24px 72px;
             margin-bottom: 32px;
         }
     }

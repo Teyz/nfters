@@ -22,10 +22,26 @@ h2{
 }
 
 h3{
-     font-family: 'DM Sans', sans-serif;
-     color: white;
-     font-size: 28px;
-     font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+
+    &.small{
+        font-size: 20px;
+    }
+
+    &.wBold{
+        font-weight: 700;
+    }
+
+    &.black{
+         color: black;
+    }
+
+    &.integralFont{
+        font-family: 'Integral CF', sans-serif;
+    }
 }
 
 h4{
@@ -45,8 +61,16 @@ h5{
      font-size: 16px;
      font-weight: 700;
 
+    &.black{
+         color: black;
+     }
+
      span{
          font-weight: 400;
+     }
+
+     .wMedium{
+         font-weight: 500;
      }
 }
 
@@ -65,8 +89,24 @@ p{
         font-size: 14px;
     }
 
+    &.big{
+        font-size: 18px;
+    }
+
+    &.purple{
+        color: $primary;
+    }
+
     &.white{
         color: white;
+    }
+
+    &.wMedium{
+        font-weight: 500;
+    }
+
+    &.wBold{
+        font-weight: 700;
     }
 }
 

@@ -3,6 +3,7 @@
     <Header/>
     <Hero/>
     <Banner/>
+    <TopCollection/>
   </div>
 </template>
 

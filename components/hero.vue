@@ -42,8 +42,8 @@
                 z-index: -1;
 
                 @include above(medium) {
-                    bottom: 30%;
-                    left: 64px;
+                    bottom: 20%;
+                    left: -5%;
                 }
             }
         }

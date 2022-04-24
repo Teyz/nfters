@@ -17,7 +17,7 @@ $primary: #3D00B7;
     $width: 1200px;
   }
   @if $arg == 'large' {
-    $width: 1441px;
+    $width: 1440px;
   }
 
   @media screen and (min-width: $width) {

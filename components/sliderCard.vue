@@ -3,7 +3,7 @@
         <div class="card-header">
             <h3>Abstr Gradient NFT</h3>
             <div class="card-people">
-                <img src="@/assets/img/pp/Arkhan17.webp" alt="John Doe profile picture">
+                <img src="@/assets/img/pp/Arkhan17.webp" alt="Arkhan17 profile picture">
                 <h4>Arkhan17</h4>
             </div>
         </div>
@@ -75,16 +75,6 @@
 
             p{
                 margin-bottom: 8px;
-            }
-            .nft-bid{
-                .nft-price{
-                    display: flex;
-                    align-items: center;
-
-                    h5{
-                        margin-left: 10px;
-                    }
-                }
             }
         }
 
