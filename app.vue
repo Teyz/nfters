@@ -5,6 +5,7 @@
     <Banner/>
     <TopCollection/>
     <FeaturedCollection/>
+    <SignupBanner/>
   </div>
 </template>
 

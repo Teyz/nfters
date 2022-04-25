@@ -43,10 +43,6 @@ h3{
         font-weight: 700;
     }
 
-    &.black{
-         color: black;
-    }
-
     &.integralFont{
         font-family: 'Integral CF', sans-serif;
     }
@@ -57,10 +53,6 @@ h4{
      color: white;
      font-size: 20px;
      font-weight: 700;
-     
-     &.black{
-         color: black;
-     }
 }
 
 h5{
@@ -68,10 +60,6 @@ h5{
      color: white;
      font-size: 16px;
      font-weight: 700;
-
-    &.black{
-         color: black;
-     }
 
      span{
          font-weight: 400;
@@ -137,4 +125,8 @@ a{
             width: 100%;
         }
     }
+}
+
+.black{
+        color: black;
 }
