@@ -38,14 +38,6 @@ h3{
     &.small{
         font-size: 20px;
     }
-
-    &.wBold{
-        font-weight: 700;
-    }
-
-    &.integralFont{
-        font-family: 'Integral CF', sans-serif;
-    }
 }
 
 h4{
@@ -64,10 +56,6 @@ h5{
      span{
          font-weight: 400;
      }
-
-     .wMedium{
-         font-weight: 500;
-     }
 }
 
 p{
@@ -76,34 +64,6 @@ p{
     font-weight: 400;
     font-size: 20px;
     color: $dark_gray;
-
-    &.small{
-        font-size: 12px;
-    }
-
-    &.medium{
-        font-size: 14px;
-    }
-
-    &.big{
-        font-size: 18px;
-    }
-
-    &.purple{
-        color: $primary;
-    }
-
-    &.white{
-        color: white;
-    }
-
-    &.wMedium{
-        font-weight: 500;
-    }
-
-    &.wBold{
-        font-weight: 700;
-    }
 }
 
 a{
@@ -128,5 +88,37 @@ a{
 }
 
 .black{
-        color: black;
+    color: black;
+}
+
+.white{
+    color: white;
+}
+
+.purple{
+    color: $primary;
+}
+
+.wBold{
+    font-weight: 700;
+}
+
+.wMedium{
+    font-weight: 500;
+}
+
+.integralFont{
+    font-family: 'Integral CF', sans-serif;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.medium{
+    font-size: 14px;
+}
+
+.big{
+    font-size: 18px;
 }

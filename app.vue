@@ -6,6 +6,7 @@
     <TopCollection/>
     <FeaturedCollection/>
     <SignupBanner/>
+    <Footer/>
   </div>
 </template>
 
