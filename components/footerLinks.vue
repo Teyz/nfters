@@ -1,14 +1,8 @@
 <template>
     <div class="footer-links">
         <h4 class="black">{{title}}</h4>
-        <ul>
-            <li><NuxtLink to="/">All NFTs</NuxtLink></li>
-            <li><NuxtLink to="/">New</NuxtLink></li>
-            <li><NuxtLink to="/">Art</NuxtLink></li>
-            <li><NuxtLink to="/">Sports</NuxtLink></li>
-            <li><NuxtLink to="/">Utility</NuxtLink></li>
-            <li><NuxtLink to="/">Music</NuxtLink></li>
-            <li><NuxtLink to="/">Domain Name</NuxtLink></li>
+        <ul v-for="link in links" :key="link">
+            <li><NuxtLink :to="link.link">{{link.title}}</NuxtLink></li>
         </ul>
     </div>
 </template>
@@ -19,6 +13,10 @@ export default defineComponent({
         title: {
             type: String,
             default: '',
+        },
+        links: {
+            type: Array,
+            default: []
         }
     }
 })

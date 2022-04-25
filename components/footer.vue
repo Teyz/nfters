@@ -5,8 +5,8 @@
                 <h3 class="black integralFont">NFTERS</h3>
                 <p>The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.</p>
             </div>
-            <FooterLinks title="Market Place" />
-            <FooterLinks title="My Account" />
+            <FooterLinks title="Market Place" :links="marketLinks"/>
+            <FooterLinks title="My Account" :links="accountLinks"/>
             <div class="footer-newsletter">
                 <h4 class="black">Stay in the loop</h4>
                 <p>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
@@ -21,6 +21,21 @@
         </div>
     </footer>
 </template>
+
+<script>
+import getAccountLinks from './accountLinks';
+import getMarketLinks from './MarketLinks';
+
+export default defineComponent({
+    setup(){
+        const accountLinks = getAccountLinks;
+        const marketLinks = getMarketLinks;
+
+        return {accountLinks, marketLinks}
+    }
+});
+
+</script>
 
 <style lang="scss" scoped>
     footer{
