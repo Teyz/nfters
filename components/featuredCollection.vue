@@ -1,6 +1,6 @@
 <template>
     <section class="featured-collection-root">
-        <h2 class="small">Collection Featured NFTs</h2>
+        <h2>Collection Featured NFTs</h2>
         <ul class="featured-collection-list">
             <li>
                 <div class="main-collection-single">

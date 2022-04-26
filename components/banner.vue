@@ -19,7 +19,6 @@
         }
 
         h2{
-            font-size: 28px;
             max-width: 400px;
 
             text-align: center;
