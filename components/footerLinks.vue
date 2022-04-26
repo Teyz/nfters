@@ -1,8 +1,8 @@
 <template>
     <div class="footer-links">
         <h4 class="black">{{title}}</h4>
-        <ul v-for="link in links" :key="link">
-            <li><NuxtLink :to="link.link">{{link.title}}</NuxtLink></li>
+        <ul>
+            <li v-for="link in links" :key="link"><NuxtLink :to="link.link">{{link.title}}</NuxtLink></li>
         </ul>
     </div>
 </template>

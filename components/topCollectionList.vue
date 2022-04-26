@@ -1,6 +1,6 @@
 <template>
-    <ul class="top-collection-list" v-for="item in 5" :key="item">
-        <li><TopCollectionItem :index="item"/></li>
+    <ul class="top-collection-list">
+        <li v-for="item in 5" :key="item"><TopCollectionItem :index="item"/></li>
     </ul>
 </template>
 

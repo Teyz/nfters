@@ -6,6 +6,7 @@
     <TopCollection/>
     <FeaturedCollection/>
     <SignupBanner/>
+    <AllNft/>
     <Footer/>
   </div>
 </template>

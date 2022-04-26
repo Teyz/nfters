@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="footer-sub">
-            <p>Copyright © 2022 Avi Yansah (Design) & Bastien Rigaud (Development)</p>
+            <p>Copyright © 2022 <a href="https://dribbble.com/aviyansah">Avi Yansah</a> (Design) & <a href="https://twitter.com/FrTeyz">Bastien Rigaud</a> (Development)</p>
         </div>
     </footer>
 </template>
