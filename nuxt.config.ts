@@ -12,6 +12,7 @@ export default defineNuxtConfig({
             { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' },
             { hid: 'description', name: 'description', content: 'Junior Software Engineer at Spendesk. Based in Bordeaux. Available for freelance contracts.' },
             { hid: 'og:title', name: 'og:title', content: 'Bastien Rigaud - Portfolio'},
+            { hid: 'og:image', property: 'og:image', content: './nfters.webp' },
             { name: "msapplication-TileColor", content: "#da532c" },
             { name: "theme-color", content: "#ffffff" }
         ],
