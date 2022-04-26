@@ -17,8 +17,8 @@
     viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
     charset: 'utf-8',
     meta: [
-      { name: 'title', content: 'My amazing site.' },
-      { name: 'description', content: '' },
+      { name: 'title', content: 'NFTERS - Marketplace' },
+      { name: 'description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
       { hid: 'og:title', name: 'og:title', content: 'NFTERS - Marketplace'},
       { name: "msapplication-TileColor", content: "#3D00B7" },
       { name: "theme-color", content: "#ffffff" }
