@@ -20,12 +20,12 @@
       { name: 'title', content: 'NFTERS - Marketplace' },
       { name: 'description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
       { hid: 'og:title', name: 'og:title', content: 'NFTERS - Marketplace'},
-      { hid: 'og:image', property: 'og:image', content: 'https://nfters-marketplace.netlify.app/nfters.webp' },
+      { hid: 'og:image', property: 'og:image', content: 'https://nfters-marketplace.netlify.app/img/nfters.webp' },
       { name: "msapplication-TileColor", content: "#3D00B7" },
       { name: "theme-color", content: "#ffffff" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' }
     ]
   })
 </script>
