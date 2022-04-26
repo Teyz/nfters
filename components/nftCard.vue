@@ -50,6 +50,11 @@
         li{
             margin-left: -16px;
 
+            img{
+                object-fit: cover;
+                width: 100%;
+            }
+
             &:first-child{
                 margin-left: 0;
             }
