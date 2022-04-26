@@ -39,7 +39,7 @@
     position: relative;
     img{
         object-fit: cover;
-        width: 100%;
+        width: 280px;
     }
     .nft-card-creators{
         position: absolute;
