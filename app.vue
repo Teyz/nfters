@@ -20,6 +20,7 @@
       { name: 'title', content: 'NFTERS - Marketplace' },
       { name: 'description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
       { hid: 'og:title', name: 'og:title', content: 'NFTERS - Marketplace'},
+      { hid: 'og:image', property: 'og:image', content: '/nfters.webp' },
       { name: "msapplication-TileColor", content: "#3D00B7" },
       { name: "theme-color", content: "#ffffff" }
     ],
