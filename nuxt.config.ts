@@ -2,16 +2,6 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    target: 'static',
-    ssr: false,
-    static: {
-        prefix: false
-    },
-    head:{
-    link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/static/favicon.ico' }
-        ],
-    },
     vite: {
         css: {
             preprocessorOptions: {
