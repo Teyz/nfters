@@ -22,6 +22,9 @@
       { hid: 'og:title', name: 'og:title', content: 'NFTERS - Marketplace'},
       { name: "msapplication-TileColor", content: "#3D00B7" },
       { name: "theme-color", content: "#ffffff" }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   })
 </script>

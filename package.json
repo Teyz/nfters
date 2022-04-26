@@ -10,6 +10,7 @@
     "nuxt": "3.0.0-rc.1"
   },
   "dependencies": {
+    "@nuxtjs/robots": "^2.5.0",
     "sass": "^1.50.1"
   }
 }
