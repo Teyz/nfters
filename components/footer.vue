@@ -24,7 +24,7 @@
 
 <script>
 import getAccountLinks from './accountLinks';
-import getMarketLinks from './MarketLinks';
+import getMarketLinks from './marketLinks';
 
 export default defineComponent({
     setup(){
