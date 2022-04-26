@@ -46,6 +46,14 @@
         bottom: -5%;
         left: 5%;
         display: flex;
+
+        li{
+            margin-left: -16px;
+
+            &:first-child{
+                margin-left: 0;
+            }
+        }
     }
 }
 
