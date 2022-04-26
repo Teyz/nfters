@@ -20,12 +20,7 @@
       { name: 'title', content: 'NFTERS - Discover, and collect Digital Art NFTs' },
       { name: 'description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
       { hid: 'og:title', name: 'og:title', content: 'NFTERS - Discover, and collect Digital Art NFTs'},
-      { hid: 'og:image', property: 'og:image', content: 'summary_large_image' },
-      { hid: 'twitter:card', property: 'twitter:card', content: 'https://nfters-marketplace.netlify.app/static/nfters.webp' },
-      { hid: 'twitter:url', property: 'twitter:url', content: 'https://nfters-marketplace.netlify.app/nfters.webp' },
-      { hid: 'twitter:title', property: 'twitter:title', content: 'Discover, and collect Digital Art NFTs' },
-      { hid: 'twitter:description', property: 'twitter:description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
-      { hid: 'twitter:image', property: 'twitter:image', content: 'https://nfters-marketplace.netlify.app/static/nfters.webp' },
+      { hid: 'og:image', property: 'og:image', content: 'https://nfters-marketplace.netlify.app/static/nfters.webp' },
       { name: "msapplication-TileColor", content: "#3D00B7" },
       { name: "theme-color", content: "#ffffff" }
     ],
