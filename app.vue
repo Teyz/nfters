@@ -14,8 +14,11 @@
 
 <script setup>
   useHead({
-    viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+    viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
     charset: 'utf-8',
+    htmlAttrs: {
+      lang: 'en'
+    },
     meta: [
       { name: 'title', content: 'NFTERS - Discover, and collect Digital Art NFTs' },
       { name: 'description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
