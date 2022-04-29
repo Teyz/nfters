@@ -7,16 +7,16 @@
                     <div class="featured-collection-main">
                         <img src="@/assets/img/collections/topCollectionSingle.webp" alt="Top collection NFT image" class="top-collection-image-small">
                         <ul class="featured-collection-preview">
-                            <li><img src="@/assets/img/collections/featured/featured-1.png" alt="Featured collection NFT preview"></li>
-                            <li><img src="@/assets/img/collections/featured/featured-2.png" alt="Featured collection NFT preview"></li>
-                            <li><img src="@/assets/img/collections/featured/featured-3.png" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-1.webp" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-2.webp" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-3.webp" alt="Featured collection NFT preview"></li>
                         </ul>
                     </div>
                     <div class="featured-collection-single-infos">
                         <h3 class="black">Amazing collection</h3>
                         <div class="featured-collection-single-image">
                             <div>
-                                <img src="@/assets/img/pp/Arkhan17-b.png" alt="Arkhan17 profile picture">
+                                <img src="@/assets/img/pp/Arkhan17-b.webp" alt="Arkhan17 profile picture">
                                 <p>by Arkhan17</p>
                             </div>
                             <button class="btn btn-small btn-white">Total 54 Items</button>
@@ -29,16 +29,16 @@
                     <div class="featured-collection-main">
                         <img src="@/assets/img/collections/topCollectionSingle.webp" alt="Top collection NFT image" class="top-collection-image-small">
                         <ul class="featured-collection-preview">
-                            <li><img src="@/assets/img/collections/featured/featured-1.png" alt="Featured collection NFT preview"></li>
-                            <li><img src="@/assets/img/collections/featured/featured-2.png" alt="Featured collection NFT preview"></li>
-                            <li><img src="@/assets/img/collections/featured/featured-3.png" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-1.webp" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-2.webp" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-3.webp" alt="Featured collection NFT preview"></li>
                         </ul>
                     </div>
                     <div class="featured-collection-single-infos">
                         <h3 class="black">Amazing collection</h3>
                         <div class="featured-collection-single-image">
                             <div>
-                                <img src="@/assets/img/pp/Arkhan17-b.png" alt="Arkhan17 profile picture">
+                                <img src="@/assets/img/pp/Arkhan17-b.webp" alt="Arkhan17 profile picture">
                                 <p>by Arkhan17</p>
                             </div>
                             <button class="btn btn-small btn-white">Total 54 Items</button>
@@ -51,16 +51,16 @@
                     <div class="featured-collection-main">
                         <img src="@/assets/img/collections/topCollectionSingle.webp" alt="Top collection NFT image" class="top-collection-image-small">
                         <ul class="featured-collection-preview">
-                            <li><img src="@/assets/img/collections/featured/featured-1.png" alt="Featured collection NFT preview"></li>
-                            <li><img src="@/assets/img/collections/featured/featured-2.png" alt="Featured collection NFT preview"></li>
-                            <li><img src="@/assets/img/collections/featured/featured-3.png" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-1.webp" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-2.webp" alt="Featured collection NFT preview"></li>
+                            <li><img src="@/assets/img/collections/featured/featured-3.webp" alt="Featured collection NFT preview"></li>
                         </ul>
                     </div>
                     <div class="featured-collection-single-infos">
                         <h3 class="black">Amazing collection</h3>
                         <div class="featured-collection-single-image">
                             <div>
-                                <img src="@/assets/img/pp/Arkhan17-b.png" alt="Arkhan17 profile picture">
+                                <img src="@/assets/img/pp/Arkhan17-b.webp" alt="Arkhan17 profile picture">
                                 <p>by Arkhan17</p>
                             </div>
                             <button class="btn btn-small btn-white">Total 54 Items</button>

@@ -4,7 +4,7 @@
             {{index}}
         </span>
         <div class="nft-image">
-            <img src="@/assets/img/collections/rounded-nft.png" alt="">
+            <img src="@/assets/img/collections/rounded-nft.webp" alt="">
         </div>
         <div class="nft-price-main">
             <h5 class="black wMedium">CryptoFunks</h5>

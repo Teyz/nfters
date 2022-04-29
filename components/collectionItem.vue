@@ -1,6 +1,6 @@
 <template>
     <div class="collection-item-root">
-        <img src="@/assets/img/collections/collection-item-1.png" alt="">
+        <img src="@/assets/img/collections/collection-item-1.webp" alt="">
         <div class="collection-item-main">
             <h4 class="black">The Futr Abstr</h4>
             <div class="collection-item-infos">

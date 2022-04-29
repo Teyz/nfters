@@ -1,12 +1,12 @@
 <template>
     <div class="nft-card-root">
         <div class="nft-card-header">
-            <img src="@/assets/img/collections/nft-card-1.png" alt="NFT card image">
+            <img src="@/assets/img/collections/nft-card-1.webp" alt="NFT card image">
             <ul class="nft-card-creators">
-                <li><img src="@/assets/img/pp/creator-1.png" alt="NFT card creator profile picture"></li>
-                <li><img src="@/assets/img/pp/creator-2.png" alt="NFT card creator profile picture"></li>
-                <li><img src="@/assets/img/pp/creator-3.png" alt="NFT card creator profile picture"></li>
-                <li><img src="@/assets/img/pp/creator-4.png" alt="NFT card creator profile picture"></li>
+                <li><img src="@/assets/img/pp/creator-1.webp" alt="NFT card creator profile picture"></li>
+                <li><img src="@/assets/img/pp/creator-2.webp" alt="NFT card creator profile picture"></li>
+                <li><img src="@/assets/img/pp/creator-3.webp" alt="NFT card creator profile picture"></li>
+                <li><img src="@/assets/img/pp/creator-4.webp" alt="NFT card creator profile picture"></li>
             </ul>
         </div>
         <div class="nft-card-main">

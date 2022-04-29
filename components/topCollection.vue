@@ -5,7 +5,7 @@
                 <img src="@/assets/img/collections/topCollectionSingle.webp" alt="Top collection NFT image" class="top-collection-image">
                 <div class="main-collection-single-infos">
                     <div class="main-collection-single-image">
-                        <img src="@/assets/img/pp/Arkhan17-b.png" alt="Arkhan17 profile picture">
+                        <img src="@/assets/img/pp/Arkhan17-b.webp" alt="Arkhan17 profile picture">
                         <div>
                             <h4 class="black">The Futr Abstr</h4>
                             <p class="medium">10 in the stock</p>
