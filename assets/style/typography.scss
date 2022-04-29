@@ -1,10 +1,14 @@
 h1{
     font-family: 'Integral CF', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 24px;
     letter-spacing: 5%;
     -webkit-text-stroke: 1px black;
     font-display: swap;
+
+    @include above(small) {
+        font-size: 40px;
+    }
 }
 
 h2{
@@ -115,6 +119,10 @@ a{
 
 .wMedium{
     font-weight: 500;
+}
+
+.wRegular{
+    font-weight: 400;
 }
 
 .integralFont{

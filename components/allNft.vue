@@ -20,7 +20,7 @@
             </button>
         </div>
         <ul class="all-nft-list">
-            <li v-for="nft in 12" :key="nft"><NftCard/></li>
+            <li v-for="nft in 12" :key="nft" class="shadow"><NftCard/></li>
         </ul>
         <div class="all-nft-button">
             <button class="btn btn-white">More NFTs</button>

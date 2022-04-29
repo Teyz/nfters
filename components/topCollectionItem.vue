@@ -13,7 +13,11 @@
                 <p>19,769.39</p>
             </div>
         </div>
-        <h4>+26.52%</h4>
+        <h4 :class="isIncrease">
+            <span v-if="isIncrease">+</span>
+            <span v-else>-</span>
+            26.52%
+        </h4>
     </div>
 </template>
 
@@ -23,6 +27,10 @@ export default defineComponent({
         index:{
             type: Number,
             default: 1
+        },
+        isIncrease: {
+            type: Boolean,
+            default: false
         }
     }
 })
@@ -45,8 +53,12 @@ export default defineComponent({
         }
 
         h4{
-            color: #14C8B0;
+            color: $red;
             margin-left: 24px;
+
+            &.isIncrease{
+                color: #14C8B0;
+            }
         }
     }
 </style>
