@@ -6,7 +6,7 @@
             <div class="collection-item-infos">
                 <img src="@/assets/img/pp/Arkhan17.webp" alt="">
                 <div class="collection-item-price">
-                    <img src="@/assets/img/crypto/ethereum-g.png" alt="">
+                    <img src="@/assets/img/crypto/ethereum-g.svg" alt="">
                     <p class="small wBold">0.25 ETH</p>
                 </div>
                 <p class="medium">1 of 8</p>

@@ -9,7 +9,7 @@
         <div class="nft-price-main">
             <h5 class="black wMedium">CryptoFunks</h5>
             <div class="nft-price">
-                <img src="@/assets/img/crypto/ethereum-v-b.png" alt="">
+                <img src="@/assets/img/crypto/ethereum-v-b.svg" alt="">
                 <p>19,769.39</p>
             </div>
         </div>

@@ -11,7 +11,7 @@
             <div class="nft-bid">
                 <p class="white small">Current Bid</p>
                 <div class="nft-price">
-                    <img src="@/assets/img/crypto/ethereum.webp" alt="Ethereum logo for current bid">
+                    <img src="@/assets/img/crypto/ethereum.svg" alt="Ethereum logo for current bid">
                     <h5>0.25 ETH</h5>
                 </div>
             </div>
@@ -21,8 +21,8 @@
             </div>
         </div>
         <div class="nft-sticker">
-            <img src="@/assets/img/sticker/sticker-text.png" alt="Text for card sticker" class="sticker-text">
-            <img src="@/assets/img/crypto/ethereum-b.webp" alt="Ethereum logo for card sticker">
+            <img src="@/assets/img/sticker/sticker-text.svg" alt="Text for card sticker" class="sticker-text">
+            <img src="@/assets/img/crypto/ethereum-b.svg" alt="Ethereum logo for card sticker">
         </div>
     </div>
 </template>

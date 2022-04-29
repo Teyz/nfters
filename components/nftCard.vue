@@ -13,7 +13,7 @@
             <h4 class="black">ArtCrypto</h4>
             <div class="nft-card-bid">
                 <div class="nft-card-price">
-                    <img src="@/assets/img/crypto/ethereum-g.png" alt="">
+                    <img src="@/assets/img/crypto/ethereum-g.svg" alt="">
                     <p class="small wBold">0.25 ETH</p>
                 </div>
                 <p>1 of 321</p>

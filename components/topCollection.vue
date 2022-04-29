@@ -14,7 +14,7 @@
                     <div class="main-collection-single-bid">
                         <p class="small wMedium">Highest Bid</p>
                         <div class="nft-price">
-                            <img src="@/assets/img/crypto/ethereum-v-b.png" alt="Ethereum logo for current bid">
+                            <img src="@/assets/img/crypto/ethereum-v-b.svg" alt="Ethereum logo for current bid">
                             <h5 class="black">0.25 ETH</h5>
                         </div>
                     </div>

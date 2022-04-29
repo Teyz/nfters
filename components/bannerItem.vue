@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import card from "@/assets/img/icons/card.webp";
-import chart from "@/assets/img/icons/chart.webp";
+import card from "@/assets/img/icons/card.svg";
+import chart from "@/assets/img/icons/chart.svg";
 export default defineComponent({
     props:{
         img: {
