@@ -21,6 +21,7 @@
                 z-index: 2;
                 left: 95px;
                 width: 210px;
+                height: 230px;
 
                 @include above(medium) {
                     left: 72px;
@@ -31,6 +32,7 @@
                 z-index: 1;
                 left: 20px;
                 width: 210px;
+                height: 230px;
 
                 @include above(medium) {
                     left: 140px;
