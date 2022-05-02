@@ -39,6 +39,7 @@
   onMounted(() => {
     document.addEventListener("touchstart", handler, passiveEvent);
     document.addEventListener('touchstart', handler, {passive: true});
+    document.addEventListener('touchstart', onTouchStart, {passive: true});
   })
 </script>
 
