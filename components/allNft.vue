@@ -5,7 +5,7 @@
             <ul>
                 <li v-for="filter in filters" :key="filter.title" class="filter-item">{{filter.title}}</li>
             </ul>
-            <button class="btn-filter">
+            <button class="btn-filter" @submit.prevent>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_0_399)">
                 <path d="M9.33333 20H14.6667V17.3333H9.33333V20ZM0 4V6.66667H24V4H0ZM4 13.3333H20V10.6667H4V13.3333Z" fill="#371C87"/>
