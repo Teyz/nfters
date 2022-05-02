@@ -37,12 +37,8 @@
     ]
   })
   onMounted(() => {
-    addEventListener(document, "touchstart", function(e) {
-    console.log(e.defaultPrevented);  // will be false
-    e.preventDefault();   // does nothing since the listener is passive
-    console.log(e.defaultPrevented);  // still false
-  }, Modernizr.passiveeventlisteners ? {passive: true} : false);
-
+    document.addEventListener("touchstart", handler, passiveEvent);
+    document.addEventListener('touchstart', handler, {passive: true});
   })
 </script>
 
