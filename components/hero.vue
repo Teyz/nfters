@@ -31,6 +31,7 @@
             max-width: 620px;
             p{
                 margin: 24px 0;
+                font-size: 18px;
             }
 
             &:before{
