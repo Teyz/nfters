@@ -19,8 +19,8 @@
 
             &.nft-card-2{
                 z-index: 2;
-                left: 40px;
-                width: 310px;
+                left: 80px;
+                width: 250px;
 
                 @include above(medium) {
                     left: 72px;
@@ -29,8 +29,8 @@
             }
             &.nft-card-3{
                 z-index: 1;
-                left: -24px;
-                width: 310px;
+                left: 0;
+                width: 250px;
 
                 @include above(medium) {
                     left: 140px;
