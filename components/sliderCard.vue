@@ -32,8 +32,8 @@
         background-image: url("@/assets/img/nft/nft-card-1.webp");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 300px;
-        width: 270px;
+        height: 260px;
+        width: 235px;
 
         display: flex;
         flex-direction: column;
