@@ -8,7 +8,7 @@
                 <li class="nav-item"><a href="/">About</a></li>
             </ul>
         </div>
-        <form class="nav-search">
+        <form class="nav-search" @submit.prevent>
             <input type="text" placeholder="Search" name="search">
             <button type="submit"><img src="@/assets/img/icons/search.svg" alt=""></button>
         </form>
@@ -28,7 +28,7 @@
                 <li class="nav-item"><NuxtLink to="/">Resource</NuxtLink></li>
                 <li class="nav-item"><NuxtLink to="/">About</NuxtLink></li>
                 <li>
-                    <form class="nav-search">
+                    <form class="nav-search" @submit.prevent>
                         <input type="text" placeholder="Search" name="search">
                         <button type="submit"><img src="@/assets/img/icons/search.svg" alt=""></button>
                     </form>

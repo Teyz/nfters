@@ -10,7 +10,7 @@
             <div class="footer-newsletter">
                 <h4 class="black">Stay in the loop</h4>
                 <p>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
-                <form class="form-newsletter">
+                <form class="form-newsletter" @submit.prevent>
                     <input type="text" placeholder="Enter your email address.." name="search">
                     <button class="btn" type="submit">Subscibe Now</button>
                 </form>
