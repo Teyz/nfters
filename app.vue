@@ -36,6 +36,14 @@
       { rel: 'icon', type: 'image/x-icon', href: '/static/favicon.ico' }
     ]
   })
+  onMounted(() => {
+    addEventListener(document, "touchstart", function(e) {
+    console.log(e.defaultPrevented);  // will be false
+    e.preventDefault();   // does nothing since the listener is passive
+    console.log(e.defaultPrevented);  // still false
+  }, Modernizr.passiveeventlisteners ? {passive: true} : false);
+
+  })
 </script>
 
 <style>
