@@ -48,6 +48,11 @@ export default defineComponent({
             margin: 0;
         }
 
+        img{
+            width: 36px;
+            height: 36px;
+        }
+
         .banner-item-infos{
             margin-left: 16px;
 

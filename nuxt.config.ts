@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     target: 'static',
-    ssr: true,
+    ssr: false,
     vite: {
         css: {
             preprocessorOptions: {
@@ -15,5 +15,12 @@ export default defineNuxtConfig({
     },
     modules: [
         '@nuxtjs/robots',
-    ]
+    ],
+    render: {
+        bundleRenderer: {
+            shouldPreload: (file, type) => {
+                return ['script', 'style', 'font'].includes(type)
+            }
+        }
+    }
 })
