@@ -3,7 +3,7 @@
     <Head>
       <Title>NFTERS - Marketplace</Title>
       <Meta name="description" content="NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT." />
-      <Meta name="image" content="https://nfters-marketplace.netlify.app/static/nfters.webp" />
+      <Meta name="og:image" content="https://nfters-marketplace.netlify.app/static/nfters.webp" />
     </Head>
     <Header/>
     <Hero/>
