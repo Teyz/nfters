@@ -15,8 +15,8 @@
 </template>
 
 <script setup>
-useHead({
-  meta: [{ name: 'og:title', content: `NFTERS - Marketplace` }]
+definePageMeta({
+  title: 'Some Page'
 })
 </script>
 
