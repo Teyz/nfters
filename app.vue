@@ -19,21 +19,30 @@
     htmlAttrs: {
       lang: 'en'
     },
-    meta: [
-      { name: 'title', content: 'NFTERS - Discover, and collect Digital Art NFTs' },
-      { name: 'description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
-      { hid: 'og:title', name: 'og:title', content: 'NFTERS - Discover, and collect Digital Art NFTs'},
-      { hid: 'og:image', property: 'og:image', content: 'https://nfters-marketplace.netlify.app/static/nfters.webp' },
-      { hid: 'twitter:card' , content:"summary_large_image" },
-      { hid: 'twitter:url' , content:"https://nfters-marketplace.netlify.app/" },
-      { hid: 'twitter:title' , content:"NFTERS - Discover, and collect Digital Art NFTs" },
-      { hid: 'twitter:description' , content:"NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT." },
-      { hid: 'twitter:image' , content:"https://nfters-marketplace.netlify.app/static/nfters.webp" },
-      { name: "msapplication-TileColor", content: "#3D00B7" },
+     meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' },
+      { hid: 'description', name: 'description', content: 'Junior Software Engineer at Spendesk. Based in Bordeaux. Available for freelance contracts.' },
+      { hid: 'og:title', name: 'og:title', content: 'Bastien Rigaud - Portfolio'},
+      { hid: 'og-image', property: 'og:image',
+        content: 'https://www.bastienrigaud.fr/og.webp'
+      },
+      { hid: 'og:image', property: 'og:image',
+        content: 'https://www.bastienrigaud.fr/og.webp'
+      },
+      { hid: 'og-type', property: 'og:type', content: 'website' },
+      { hid: 'og-desc', property: 'og:description', content: 'Junior Software Engineer at Spendesk. Based in Bordeaux. Available for freelance contracts.' },
+      { hid: 'og-url', property: 'og:url', content: 'https://wwww.bastienrigaud.fr' },
+      { name: "msapplication-TileColor", content: "#da532c" },
+      { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' },
+      { hid: 't-type', name: 'twitter:url', content: 'https://wwww.bastienrigaud.fr' },
+      { hid: 't-type', name: 'twitter:title', content: 'Bastien Rigaud - Portfolio' },
+      { hid: 't-type', name: 'twitter:description', content: 'Junior Software Engineer at Spendesk. Based in Bordeaux. Available for freelance contracts' },
+      { hid: 't-type', name: 'twitter:image', content: 'https://www.bastienrigaud.fr/og.webp' },
       { name: "theme-color", content: "#ffffff" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/static/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   })
 </script>
