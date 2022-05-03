@@ -2,8 +2,6 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    target: 'static',
-    ssr: false,
     vite: {
         css: {
             preprocessorOptions: {
@@ -17,7 +15,7 @@ export default defineNuxtConfig({
         '@nuxtjs/robots'
     ],
     app: {    
-    head: {
+        head: {
             meta: [
                 { name: 'title', content: 'NFTERS - Discover, and collect Digital Art NFTs' },
                 { name: 'description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
