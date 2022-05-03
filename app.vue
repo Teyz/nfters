@@ -14,6 +14,12 @@
   </div>
 </template>
 
+<script setup>
+useHead({
+  meta: [{ name: 'og:title', content: `NFTERS - Marketplace` }]
+})
+</script>
+
 <style>
     html,body { margin: 0 !important;}
 </style>
