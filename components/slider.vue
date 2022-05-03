@@ -23,9 +23,14 @@
                 width: 210px;
                 height: 230px;
 
+                @include above(small){
+                    left: 320px;
+                }
+
                 @include above(medium) {
                     left: 72px;
                     width: 356px;
+                    height: 390px;
                 }
             }
             &.nft-card-3{
@@ -34,9 +39,14 @@
                 width: 210px;
                 height: 230px;
 
+                @include above(small){
+                    left: 220px;
+                }
+
                 @include above(medium) {
                     left: 140px;
                     width: 310px;
+                    height: 340px;
                 }
             }
         }

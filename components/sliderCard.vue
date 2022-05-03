@@ -22,7 +22,7 @@
         </div>
         <div class="nft-sticker">
             <img src="@/assets/img/sticker/sticker-text.svg" alt="Text for card sticker" class="sticker-text">
-            <img src="@/assets/img/crypto/ethereum-b.svg" alt="Ethereum logo for card sticker">
+            <img src="@/assets/img/crypto/ethereum-b.svg" alt="Ethereum logo for card sticker" class="sticker-logo">
         </div>
     </div>
 </template>
@@ -86,8 +86,14 @@
 
             background-color: #FFE0D4;
             border-radius: 1000px;
-            width: 100px;
-            height: 100px;
+
+            width: 50px;
+            height: 50px;
+
+            @include above(medium){
+                width: 100px;
+                height: 100px;
+            }
 
             display: flex;
             align-items: center;
@@ -98,6 +104,24 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+
+                width: 60px;
+                height: 60px;
+
+            @include above(medium){
+                width: 120px;
+                height: 120px;
+            }
+            }
+
+            .sticker-logo{
+                width: 20px;
+                height: 20px;
+
+                @include above(medium){
+                    width: 40px;
+                    height: 40px;
+                }
             }
         }
     }

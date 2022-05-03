@@ -6,9 +6,9 @@
             <button class="btn">Explore Now</button>
             <HighlightNumbers/>
         </div>
-        <!-- <div class="hero-slider">
+        <div class="hero-slider">
             <Slider/>
-        </div> -->
+        </div>
     </section>
 </template>
 
