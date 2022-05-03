@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     },
     modules: [
         '@nuxtjs/robots',
+        'vue-meta'
     ],
     render: {
         bundleRenderer: {
