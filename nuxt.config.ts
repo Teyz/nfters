@@ -22,6 +22,7 @@ export default defineNuxtConfig({
                 { hid: 'og:title', name: 'og:title', content: 'NFTERS - Discover, and collect Digital Art NFTs'},
                 { hid: 'og:description', name: 'og:description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.'},
                 { hid: 'og:image', property: 'og:image', content: 'https://nfters-marketplace.netlify.app/static/nfters.webp' },
+                { hid: 'og:image', property: 'image', content: 'https://nfters-marketplace.netlify.app/static/nfters.webp' },
                 { hid: 'og:url', property: 'og:url', content: 'https://nfters-marketplace.netlify.app/' },
                 { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' },
                 { hid: 't-type', name: 'twitter:url', content: 'https://nfters-marketplace.netlify.app/' },
