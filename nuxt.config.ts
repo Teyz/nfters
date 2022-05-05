@@ -21,18 +21,18 @@ export default defineNuxtConfig({
                 { name: 'description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
                 { hid: 'og:title', name: 'og:title', content: 'NFTERS - Discover, and collect Digital Art NFTs'},
                 { name:"description", property: 'og:description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.'},
-                { name:"image", property: 'og:image', content: 'https://nfters-marketplace.netlify.app/static/nfters.webp' },
+                { name:"image", property: 'og:image', content: 'https://nfters-marketplace.netlify.app/_nuxt/nfters.png' },
                 { hid: 'og:url', property: 'og:url', content: 'https://nfters-marketplace.netlify.app/' },
                 { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' },
                 { hid: 't-type', name: 'twitter:url', content: 'https://nfters-marketplace.netlify.app/' },
                 { hid: 't-type', name: 'twitter:title', content: 'NFTERS - Discover, and collect Digital Art NFTs' },
                 { hid: 't-type', name: 'twitter:description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
-                { hid: 't-type', name: 'twitter:image', content: './nfters.webp' },
+                { hid: 't-type', name: 'twitter:image', content: 'https://nfters-marketplace.netlify.app/_nuxt/nfters.png' },
                 { name: "msapplication-TileColor", content: "#3D00B7" },
                 { name: "theme-color", content: "#ffffff" }
             ],
             link: [
-                { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
+                { rel: 'icon', type: 'image/x-icon', href: './_nuxt/favicon.ico' }
             ]
         }
     },
