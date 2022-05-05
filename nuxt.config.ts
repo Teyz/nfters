@@ -27,12 +27,12 @@ export default defineNuxtConfig({
                 { hid: 't-type', name: 'twitter:url', content: 'https://nfters-marketplace.netlify.app/' },
                 { hid: 't-type', name: 'twitter:title', content: 'NFTERS - Discover, and collect Digital Art NFTs' },
                 { hid: 't-type', name: 'twitter:description', content: 'NFTERS is a NFT marketplace powered by Ethereum. Join us and upload / buy your first NFT.' },
-                { hid: 't-type', name: 'twitter:image', content: 'https://nfters-marketplace.netlify.app/static/nfters.webp' },
+                { hid: 't-type', name: 'twitter:image', content: './nfters.webp' },
                 { name: "msapplication-TileColor", content: "#3D00B7" },
                 { name: "theme-color", content: "#ffffff" }
             ],
             link: [
-                { rel: 'icon', type: 'image/x-icon', href: '/static/favicon.ico' }
+                { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
             ]
         }
     },
